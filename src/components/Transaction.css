@@ -1,0 +1,47 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  button{ 
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+  button:hover {
+    cursor: pointer
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 2px solid black; */
+    padding: 15px;
+    font-size: 1.4rem;
+  }
+
+    .table {
+        padding: 14px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+  
+
+  .within {
+    background-color: green;
+    color: white;
+  }
+
+  .exceed {
+    background-color: red;
+    color: white;
+  }

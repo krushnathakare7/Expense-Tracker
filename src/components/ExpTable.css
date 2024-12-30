@@ -1,0 +1,16 @@
+.filter-section {
+
+}
+
+.main {
+
+}
+
+.table-section {
+    
+}
+
+.filter-container {
+    display: flex;
+    justify-content: space-around;
+}

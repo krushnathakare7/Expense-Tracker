@@ -1,0 +1,42 @@
+:root{
+    background-color: #ddefe6;
+    height: 100vh;
+}
+
+  h1 {
+    font-size: 3rem;          /* Adjust font size */
+    color: #333;              /* Text color */
+  }
+
+  .container {
+    display: flex;
+    align-items: center;      /* Center vertically */
+    height: 75vh; 
+    background-color: antiquewhite;
+   flex-direction: column;
+  }
+
+  .container-content {
+    text-align: center;
+  }
+
+  .cat-container {
+    display: flex;
+  }
+
+  .form-container {
+    border: 2px solid black;
+    padding: 30px;
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;;
+  
+  }
+
+  .items {
+    padding: 20px;
+  }

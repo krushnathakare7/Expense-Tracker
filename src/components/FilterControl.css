@@ -1,0 +1,26 @@
+:root{
+    --color-gradient-start: hsl(0, 0%, 100%);
+}
+
+.control-btn.group {
+    display: flex;
+    gap: 1rem;
+    padding: 20px;
+    border-bottom: 1px solid black;
+  }
+
+  .btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  .btn:focus {
+    outline: none;
+  }
+
+  .btn.active,
+.wrapper.dark .btn.active {
+  color: var(--color-gradient-start);
+  font-weight: 700;
+  background-color: black;
+}
